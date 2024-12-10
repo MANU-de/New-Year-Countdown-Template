@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    }
+
+    h1{
+        color: #51788b;
+    }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#countdown div {
+    font-size: 2em;
+    font-weight: bold;
+    color:  #51788b;
+}
+
+#countdown-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countdown-form label {
+    margin: 10px 0;
+    color: #51788b;
+}
+
+#countdown-form input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #51788b;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #51788b;
+}
+
+#countdown-form button {
+    padding: 10px 20px;
+    background-color: #51788b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#countdown-form button:hover {
+    background-color: #51788b;
+}

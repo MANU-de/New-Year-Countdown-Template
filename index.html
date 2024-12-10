@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Celebration Countdown Timer</h1>
+        <div id="countdown">
+            <div id="days">Days</div>
+            <div id="hours">Hours</div>
+            <div id="minutes">Minutes</div>
+            <div id="seconds">Seconds</div>
+        </div>
+        <form id="countdown-form">
+            <label for="occasion">Occasion:</label>
+            <input type="text" id="occasion" name="occasion" required>
+            <label for="date">Date (YYYY-MM-DD):</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Start Countdown</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
